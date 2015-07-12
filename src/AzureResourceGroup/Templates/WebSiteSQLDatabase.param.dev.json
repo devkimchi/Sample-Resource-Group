@@ -1,0 +1,36 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "siteName": {
+            "value": "acsamplewebsite"
+        },
+        "hostingPlanName": {
+            "value": "ACSamplePlan"
+        },
+        "siteLocation": {
+            "value": "Southeast Asia"
+        },
+        "serverName": {
+            "value": "acsampledb"
+        },
+        "serverLocation": {
+            "value": "Southeast Asia"
+        },
+        "administratorLogin": {
+            "value": "acsampleadmin"
+        },
+        "databaseName": {
+            "value": "SampleDatabase"
+        },
+        "newStorageAccountName" : {
+            "value" : "acsamplestorage"
+        },
+        "storageAccountType": {
+            "value": "Standard_GRS"
+        },
+        "location": {
+            "value": "Southeast Asia"
+        }
+    }
+}
